@@ -22,15 +22,20 @@ To unload the module, type
 
 > module unload Rust/1.58.1
 
-Documentation
--------------
-For help, type
-
-> rust --help
-
 Tools included in this module are
 
-* rust
+* cargo
+* cargo-miri
+* rust-gdb
+* rustdoc
+* cargo-clippy
+* clippy-driver
+* rust-lldb
+* rustfmt
+* cargo-fmt
+* rls
+* rustc
+* rustup
 ]])
 
 local package = "rust"
